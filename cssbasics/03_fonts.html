@@ -12,12 +12,20 @@
     <style>
       body {
         /* Web safe fonts */
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-family: Arial, Helvetica, sans-serif;
 
         /* Non websafe fonts */
-        font-family: "Roboto", sans-serif;
+        /* font-family: "Roboto", sans-serif; */
         font-size: 18px;
         line-height: 1.6em;
+      }
+
+      #welcome p span {
+        font-weight: bold;
+      }
+
+      #about p span {
+        font-style: italic;
       }
     </style>
   </head>
@@ -26,18 +34,22 @@
       <h2 class="primary-heading">Welcome</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
-        quidem assumenda possimus aliquam nesciunt quibusdam repellat vitae qui
-        quos molestias!
+        quidem
+        <span>assumenda possimus aliquam nesciunt quibusdam</span> repellat
+        vitae qui quos molestias!
       </p>
     </div>
 
     <div id="about">
       <h2>About</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-        vitae vero nemo in incidunt? Voluptas dolor, harum, cupiditate ut
-        praesentium ab qui temporibus vero tempore modi facere optio illo
-        laborum.
+        Lorem ipsum dolor, sit amet
+        <span
+          >consectetur adipisicing elit. Voluptates vitae vero nemo in
+          incidunt?</span
+        >
+        Voluptas dolor, harum, cupiditate ut praesentium ab qui temporibus vero
+        tempore modi facere optio illo laborum.
       </p>
     </div>
   </body>
